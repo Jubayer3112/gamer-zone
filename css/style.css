@@ -317,6 +317,9 @@ nav{
     font-weight: 600;
     line-height: 40px; /* 200% */
 }
+.career-list-right{
+    text-align: right;
+}
 .btn-white{
     background: #fff;
     color: #F948B2 !important;
