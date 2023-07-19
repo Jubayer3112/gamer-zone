@@ -254,7 +254,7 @@ nav{
 
 /* Play section */
 .play-section{
-    padding: 80px 0;
+    padding: 80px 0 150px 0;
 }
 .play-right{
     position: relative;
@@ -284,4 +284,41 @@ nav{
 .play-left h2 span{
     color: #F948B2;
     display: inline-block;
+}
+/* career */
+.career-section{
+    background-image:url("../images/Group\ 65.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #ff42a5;
+    height: 821px;
+}
+.career-left{
+    width: 48%;
+}
+.career-right{
+    width: 50%;
+}
+.career-left p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px 0;
+}
+.career-left h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+}
+.career-left li{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+}
+.btn-white{
+    background: #fff;
+    color: #F948B2 !important;
+    margin-top: 40px;
 }
