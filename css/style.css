@@ -326,12 +326,13 @@ nav{
     margin-top: 40px;
 }
 /* game category */
-.categories{
+.categories {
     display: grid;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(5,1fr);
-    justify-content: center;
-    /* display: none; */
+    grid-template-columns: repeat(5,20%);
+    gap: 28px;
+}
+.category.category2 {
+    margin-left: 126px;
 }
 .category{
     display: flex;
@@ -377,27 +378,34 @@ nav{
 .footer-menu{
     text-align: center;
 }
-.footer-menu ul{
-    display: flex;
+.footer-menu ul {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
     justify-content: center;
     gap: 60px;
-    margin: 55px 0;
+    margin: 55px auto;
+    width: 66%;
 }
 .footer-menu ul li a{
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
 }
-.social-menu{
-    display: flex;
+.social-menu {
+    display: grid;
+    grid-template-columns: repeat(6,94px);
     justify-content: center;
-    gap: 40px;
+    align-items: center;
 }
-.footer-pages ul{
-    display: flex;
+.footer-pages {
+    text-align: center;
+}
+.footer-pages ul {
+    display: grid;
+    grid-template-columns: repeat(4,174px);
+    text-align: center;
+    margin: 50px auto;
     justify-content: center;
-    gap: 60px;
-    margin: 65px 0 28px 0;
 }
 .footer-pages ul li a, .copyright{
     color: #5e738e;

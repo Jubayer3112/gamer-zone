@@ -1,4 +1,4 @@
-@media (max-width:960px) {
+@media (max-width:991px) {
     .header-section{
         height: 430px;
     }
@@ -34,8 +34,7 @@
     .responsive-gamer{
         height: auto;
         display: flex;
-        flex-direction: column
-        ;
+        flex-direction: column;
     }
     .gamer-left {
         width: 100%;
@@ -89,13 +88,106 @@
     .career-left {
         width: 100%;
     }
-    .categories-2{
+
+
+    .footer-menu ul {
         display: grid;
-        justify-content: center;
-        grid-template-columns: span 3;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        gap: 27px;
     }
-    .categories{
+    .footer-menu ul li {
+        width: 105px;
+    }
+    .social-menu {
         display: grid;
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(3,94px);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 50px;
+    }
+
+    .footer-pages ul {
+        display: grid;
+        grid-template-columns: repeat(2,174px);
+        text-align: center;
+        margin: 50px auto;
+        justify-content: center;
+        row-gap: 32px;
+    }
+    .categories {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3,33%);
+        gap: 5px;
+    }
+    .category.category2 {
+        margin-left: 0;
+    }
+}
+@media (max-width:518px){
+    .btn > a {
+        color: #FFF;
+        margin-right: 24px;
+        font-size: 16px;
+    }
+    .section-title h2 {
+        color: #0B0223;
+        font-size: 40px;
+    }
+    .small-image {
+        bottom: -50px;
+        left: -47px;
+        width: 55%;
+    }
+    .play-left h2 {
+        font-size: 40px;
+    }
+    .categories {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3,33%);
+        gap: 5px;
+    }
+    .category.category2 {
+        margin-left: 0;
+    }
+    .category {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: auto;
+    }
+    .category span {
+        font-size: 12px;
+        width: 81px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (max-width:480px){
+    .categories {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3,33%);
+        gap: 5px;
+    }
+    .category.category2 {
+        margin-left: 0;
+    }
+}
+@media (max-width:430px){
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu span {
+        margin-right: 24px;
+        font-size: 13px;
+    }
+    .menu-btn {
+        width: 235px;
     }
 }
