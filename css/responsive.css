@@ -1,0 +1,101 @@
+@media (max-width:960px) {
+    .header-section{
+        height: 430px;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding:60px ;
+    }
+    .menu ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu ul li{
+        padding:30px 0;
+    }
+    .responsive-banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner{
+        height: auto;
+        background: none;
+    }
+    .banner-left {
+        margin-top: 50px;
+    }
+
+    .gamer {
+        height: auto;
+    }
+    .responsive-gamer{
+        height: auto;
+        display: flex;
+        flex-direction: column
+        ;
+    }
+    .gamer-left {
+        width: 100%;
+    }
+    .gamer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .responsive-video{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+    .card-text {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    .responsive-play{
+        display: flex;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .play-right {
+        position: relative;
+        width: 100%;
+        text-align: right;
+    }
+    .play-left {
+        width: 100%;
+        text-align: right;
+        margin-top: 110px;
+        text-align: center;
+    }
+    .play-left .description {
+        width: 90%;
+        margin-top: 24px;
+        text-align: center;
+    }
+    .career-section {
+        background-position: bottom center;
+        height: 1522px;
+        padding-top: 80px;
+    }
+    .responsive-career{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .career-left {
+        width: 100%;
+    }
+    .categories-2{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: span 3;
+    }
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+}

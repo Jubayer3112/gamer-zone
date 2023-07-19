@@ -328,7 +328,10 @@ nav{
 /* game category */
 .categories{
     display: grid;
+    grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    /* display: none; */
 }
 .category{
     display: flex;
