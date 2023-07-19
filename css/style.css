@@ -10,6 +10,7 @@
 .container {
     width: 75%;
     margin: auto;
+    height: 100%;
 }
 img{
     max-width: 100%;
@@ -23,7 +24,23 @@ ul li{
 .text-pink{
     color: #ff42a5;
 }
-
+.garident-color{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    padding: 21px 40px;
+    background:#ff42a5 ;
+    display: inline-block;
+    border-radius: 48px;
+}
 /* Header CSS */
 .logo span {
     font-size: 45px;
@@ -32,10 +49,10 @@ ul li{
 .logo{
     display: flex;
     align-items: center;
-    /* width: 20%; */
 }
+
 .menu{
-    /* width: 60%; */
+
 }
 .logo img{
     margin-right: 20px;
@@ -76,4 +93,57 @@ nav{
     height: 130px;
     background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* Banner Section */
+.banner{
+    height: 700px;
+    background: url("../images/Group\ 14.png") no-repeat;
+    background-position: left center;
+    display: flex;
+    align-items: center;
+}
+.banner-left{
+    
+}
+.banner-left h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-left h1{
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.banner-left ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+.banner-left ul li span{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-left:10px;
+}
+.banner-left > .btn{
+    display: flex;
+    align-items: center;
+}
+.btn > a{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 24px;
+}
+.btn{
+    margin-top: 41px;
+}
+.btn-lightblue{
+    background: #4EC5F7;
 }
