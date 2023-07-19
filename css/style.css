@@ -24,7 +24,7 @@ ul li{
 .text-pink{
     color: #ff42a5;
 }
-.garident-color{
+.gradient-color{
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -40,6 +40,18 @@ background-clip: text;
     background:#ff42a5 ;
     display: inline-block;
     border-radius: 48px;
+}
+a.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.description{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 /* Header CSS */
 .logo span {
@@ -136,9 +148,6 @@ nav{
 }
 .btn > a{
     color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
     margin-right: 24px;
 }
 .btn{
@@ -146,4 +155,35 @@ nav{
 }
 .btn-lightblue{
     background: #4EC5F7;
+}
+/* Gamer section design */
+.gamer {
+    height: 600px;
+}
+.gamer-left {
+    width: 60%;
+}
+.gamer-right {
+    width: 40%;
+    text-align: right;
+}
+.gamer-right h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.gamer-right .description {
+    padding: 24px 0 32px 50px;
+}
+.purpose{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    padding-top: 24px;
+}
+.quote{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
 }
