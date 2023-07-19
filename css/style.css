@@ -251,4 +251,37 @@ nav{
     text-align: center;
     margin-bottom: 48px;
 }
-    
+
+/* Play section */
+.play-section{
+    padding: 80px 0;
+}
+.play-right{
+    position: relative;
+    width: 50%;
+    text-align: right;
+}
+
+.play-left{
+    width: 38%;
+    text-align: right;
+}
+
+.small-image {
+    position: absolute;
+    bottom: -68px;
+    left: -50px;
+}
+.play-left h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.play-left .description{
+    width: 385px;
+    margin-left: auto;
+    margin-top: 24px;
+}
+.play-left h2 span{
+    color: #F948B2;
+    display: inline-block;
+}
