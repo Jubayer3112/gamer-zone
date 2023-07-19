@@ -1,0 +1,79 @@
+ /* Common CSS */
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.text-pink{
+    color: #ff42a5;
+}
+
+/* Header CSS */
+.logo span {
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* width: 20%; */
+}
+.menu{
+    /* width: 60%; */
+}
+.logo img{
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.menu-btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu ul li{
+    margin-right: 32px;
+}
+.menu ul li a, .menu-btn span{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu span{
+    margin-right: 24px;
+}
+.menu a{
+    margin-right: 16px;
+}
+.header-section{
+    height: 130px;
+    background: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
